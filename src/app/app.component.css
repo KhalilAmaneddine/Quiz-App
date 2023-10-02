@@ -1,0 +1,55 @@
+.card {
+  width: 580px;
+  height: 500px;
+  padding: 30px;
+  margin: 50px auto 0px;
+}
+
+.card h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+hr {
+  height: 10px;
+  border-top: 2px solid;
+}
+
+button {
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px;
+  text-align: left;
+}
+
+button:hover:not([disabled]) {
+  background-color: rgb(85, 11, 85);
+  color: #fff;
+  transition: 0.3s all ease;
+}
+
+.next-button {
+  background-color: #9c27b0;
+  color: #fff;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.correct {
+  background-color: rgb(132, 252, 132);
+  color: #fff;
+}
+
+.incorrect {
+  background-color: rgb(243, 132, 132);
+  color: #fff;
+}
